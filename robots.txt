@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://oleggazeta67-alt.github.io/vgrab/sitemap.xml
