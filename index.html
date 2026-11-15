@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VGrab — скачивайте видео и фильмы по ссылке</title>
+  <meta name="description" content="VGrab — бесплатная программа для Windows: скачивайте видео и фильмы с YouTube, VK, Rutube, TikTok и сотен других сайтов. Плейлисты, озвучка, субтитры, обрезка и MP3. Без рекламы и регистрации." />
+  <meta property="og:title" content="VGrab — видео и фильмы по ссылке" />
+  <meta property="og:description" content="Бесплатный загрузчик видео для Windows. Один файл, без установки, всё остаётся на вашем компьютере." />
+  <meta property="og:image" content="https://oleggazeta67-alt.github.io/vgrab/assets/app-home.png" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23ff6a3d'/%3E%3Cpath d='M32 14v24m0 0l-10-10m10 10l10-10M18 48h28' stroke='%230b0c0e' stroke-width='6' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="fonts.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="glow glow-a" aria-hidden="true"></div>
+  <div class="glow glow-b" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-head">
+    <a class="brand" href="#top" aria-label="VGrab — на главную">
+      <span class="mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 3v12" /><path d="M7.5 10.5 12 15l4.5-4.5" /><path d="M4 20h16" />
+        </svg>
+      </span>
+      <span class="wordmark">V<span>GRAB</span></span>
+    </a>
+    <nav class="head-nav" aria-label="Разделы">
+      <a href="#features">Возможности</a>
+      <a href="#screen">Скриншот</a>
+      <a href="#faq">Вопросы</a>
+    </nav>
+    <a class="btn btn-sm" href="https://github.com/oleggazeta67-alt/vgrab/releases/download/v1.1.0/VGrab.exe" download="VGrab.exe">Скачать</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="kicker rise d1">бесплатно · без аккаунта · без рекламы</p>
+        <h1 class="rise d2">Видео и фильмы.<br /><em>По ссылке.</em></h1>
+        <p class="lead rise d3">
+          VGrab скачивает с YouTube, VK, Rutube, TikTok и ещё сотен сайтов.
+          Вставили ссылку, выбрали качество, забрали файл.
+          Плейлисты, озвучка, субтитры, обрезка и MP3 уже внутри.
+        </p>
+        <div class="cta rise d4">
+          <a class="btn btn-big" href="https://github.com/oleggazeta67-alt/vgrab/releases/download/v1.1.0/VGrab.exe" download="VGrab.exe">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 4v11" /><path d="M7.5 11.5 12 16l4.5-4.5" /><path d="M5 20h14" />
+            </svg>
+            Скачать для Windows
+          </a>
+          <p class="cta-meta">Windows 10/11 · 64-bit · ≈210 МБ<br />один файл, без установки</p>
+        </div>
+        <p class="privacy rise d5">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6Z" /><path d="m9.5 12 2 2 3.5-4" />
+          </svg>
+          Всё работает локально: файлы и настройки не покидают ваш компьютер.
+        </p>
+      </div>
+
+      <div class="term-wrap rise d4" aria-hidden="true">
+        <div class="term">
+          <div class="term-bar"><span></span><span></span><span></span><i>vgrab — загрузка</i></div>
+          <div class="term-body">
+            <p class="t-dim">› вставьте ссылку</p>
+            <p class="t-link">https://youtube.com/watch?v=…</p>
+            <p class="t-ok">✓ найдено · «Ночной город: таймлапс 4K»</p>
+            <p class="t-dim">› качество: 2160p · формат: mp4</p>
+            <div class="t-progress"><div class="t-fill"></div></div>
+            <p class="t-stats"><b>82%</b> · 2,46 из 3,00 ГБ · 5,2 МБ/с</p>
+            <p class="t-done">готово · файл в папке «Загрузки»<span class="caret"></span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="strip" aria-hidden="true">
+      <div class="strip-track">
+        <span>YouTube</span><i>✦</i><span>VK</span><i>✦</i><span>Rutube</span><i>✦</i><span>TikTok</span><i>✦</i><span>Instagram</span><i>✦</i><span>Vimeo</span><i>✦</i><span>X</span><i>✦</i><span>Twitch</span><i>✦</i><span>и ещё сотни сайтов</span><i>✦</i>
+        <span>YouTube</span><i>✦</i><span>VK</span><i>✦</i><span>Rutube</span><i>✦</i><span>TikTok</span><i>✦</i><span>Instagram</span><i>✦</i><span>Vimeo</span><i>✦</i><span>X</span><i>✦</i><span>Twitch</span><i>✦</i><span>и ещё сотни сайтов</span><i>✦</i>
+      </div>
+    </div>
+
+    <section class="section" id="features">
+      <p class="sec-num reveal">01 · возможности</p>
+      <h2 class="reveal">Не просто «скачать видео»</h2>
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9" /><path d="M3.6 9h16.8M3.6 15h16.8M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18" /></svg>
+          </div>
+          <h3>Сотни сайтов</h3>
+          <p>YouTube, VK, Rutube, TikTok, Instagram, Vimeo, X и другие. Если площадка отдаёт видео, VGrab его заберёт.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h13M3 12h13M3 18h8" /><path d="M18 10.5v7l5-3.5Z" /></svg>
+          </div>
+          <h3>Плейлисты и очереди</h3>
+          <p>Вставьте несколько ссылок сразу или целый плейлист. VGrab качает по очереди и показывает прогресс каждого файла.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5" /><path d="M7 5v14M17 5v14M3 9.5h4M3 14.5h4M17 9.5h4M17 14.5h4" /></svg>
+          </div>
+          <h3>Фильмы</h3>
+          <p>Выбор озвучки, субтитры отдельным файлом .srt, качество до 4K. Для фильмов с YouTube, VK и Rutube.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2.6" /><circle cx="6" cy="18" r="2.6" /><path d="M8.2 7.8 20 19M8.2 16.2 20 5" /></svg>
+          </div>
+          <h3>Обрезка и форматы</h3>
+          <p>Нужен отрезок с 1:20 до 2:45? Пожалуйста. MP4, WebM, MKV, только звук в MP3 или видео без звука.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6Z" /><path d="m9.5 12 2 2 3.5-4" /></svg>
+          </div>
+          <h3>Приватность</h3>
+          <p>Никаких аккаунтов, облаков и телеметрии. Программа работает только на вашем ПК, история и настройки хранятся локально.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12a8 8 0 1 1-2.34-5.66" /><path d="M20 4v4h-4" /></svg>
+          </div>
+          <h3>Всегда свежий</h3>
+          <p>Движок yt-dlp обновляется прямо из приложения в один клик, чтобы новые сайты и форматы работали без проблем.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="screen">
+      <p class="sec-num reveal">02 · интерфейс</p>
+      <h2 class="reveal">Кабинет, а не окошко на три кнопки</h2>
+      <p class="sec-lead reveal">Главная со счётчиками и недавними файлами, очередь загрузок, библиотека и настройки. Всё под рукой.</p>
+      <div class="shots">
+        <figure class="frame reveal">
+          <div class="frame-bar" aria-hidden="true"><span></span><span></span><span></span><i>VGrab — Главная</i></div>
+          <img src="assets/app-home.png" alt="Главный экран VGrab: счётчики, поиск по ссылке, недавние файлы" loading="lazy" />
+          <figcaption>Главная: поиск, счётчики, недавнее</figcaption>
+        </figure>
+        <figure class="frame reveal">
+          <div class="frame-bar" aria-hidden="true"><span></span><span></span><span></span><i>VGrab — Загрузки</i></div>
+          <img src="assets/app-downloads.png" alt="Экран загрузок VGrab: очередь с прогрессом, скоростью и оставшимся временем" loading="lazy" />
+          <figcaption>Загрузки: очередь с прогрессом</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="how">
+      <p class="sec-num reveal">03 · как это работает</p>
+      <h2 class="reveal">Три шага до файла</h2>
+      <ol class="steps">
+        <li class="reveal">
+          <b>01</b>
+          <h3>Вставьте ссылку</h3>
+          <p>Одну, несколько или плейлист. VGrab сам найдёт название, качество и длительность.</p>
+        </li>
+        <li class="reveal">
+          <b>02</b>
+          <h3>Выберите качество</h3>
+          <p>От 360p до 4K, только звук MP3, озвучка и субтитры для фильмов, обрезка по времени.</p>
+        </li>
+        <li class="reveal">
+          <b>03</b>
+          <h3>Заберите файл</h3>
+          <p>Файл появится в выбранной папке. Прогресс, скорость и уведомления уже работают.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section" id="faq">
+      <p class="sec-num reveal">04 · вопросы</p>
+      <h2 class="reveal">Коротко о важном</h2>
+      <div class="faq reveal">
+        <details>
+          <summary>Это бесплатно?<span class="faq-x" aria-hidden="true"></span></summary>
+          <p>Да. VGrab бесплатен, без рекламы, регистрации и пробных периодов. Скачали и пользуетесь.</p>
+        </details>
+        <details>
+          <summary>Какие сайты поддерживаются?<span class="faq-x" aria-hidden="true"></span></summary>
+          <p>YouTube, VK, Rutube, TikTok, Instagram, Vimeo, X и сотни других площадок через движок yt-dlp. Если сайт отдаёт видео без защиты, скорее всего всё получится.</p>
+        </details>
+        <details>
+          <summary>Почему не скачиваются фильмы с Кинопоиска, ivi или Okko?<span class="faq-x" aria-hidden="true"></span></summary>
+          <p>Эти сервисы защищают видео DRM-шифрованием. VGrab не обходит защиту и работает только с открытыми источниками: YouTube, VK, Rutube и другими площадками без DRM.</p>
+        </details>
+        <details>
+          <summary>Куда сохраняются файлы?<span class="faq-x" aria-hidden="true"></span></summary>
+          <p>В папку загрузок, которую вы выберете в настройках. История, настройки и сами файлы хранятся только на вашем компьютере.</p>
+        </details>
+        <details>
+          <summary>Windows показывает предупреждение при запуске?<span class="faq-x" aria-hidden="true"></span></summary>
+          <p>Приложение распространяется без цифровой подписи, поэтому SmartScreen может перестраховаться. Нажмите «Подробнее», затем «Выполнить в любом случае». Это нормально для бесплатных портативных программ.</p>
+        </details>
+        <details>
+          <summary>Нужна ли установка?<span class="faq-x" aria-hidden="true"></span></summary>
+          <p>Нет. VGrab — один exe-файл: запустили и работает. Можно носить на флешке. Внутри уже есть всё необходимое, включая yt-dlp и ffmpeg.</p>
+        </details>
+        <details>
+          <summary>Будет ли версия для macOS или Linux?<span class="faq-x" aria-hidden="true"></span></summary>
+          <p>Пока только Windows 10 и 11 (64-bit).</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="final reveal">
+      <h2>Готовы качать?</h2>
+      <p>Один файл. Запустили, вставили ссылку, забрали видео.</p>
+      <a class="btn btn-big" href="https://github.com/oleggazeta67-alt/vgrab/releases/download/v1.1.0/VGrab.exe" download="VGrab.exe">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 4v11" /><path d="M7.5 11.5 12 16l4.5-4.5" /><path d="M5 20h14" />
+        </svg>
+        Скачать для Windows
+      </a>
+      <p class="cta-meta">Windows 10/11 · 64-bit · ≈210 МБ · версия 1.1.0</p>
+    </section>
+  </main>
+
+  <footer class="site-foot">
+    <div class="foot-brand">
+      <span class="wordmark">V<span>GRAB</span></span>
+      <p>видео и фильмы по ссылке</p>
+    </div>
+    <div class="foot-legal">
+      <p>Скачивайте только то, на что у вас есть право. Уважайте авторские права и правила площадок.</p>
+      <p>VGrab 1.1.0 · 2026 · сделано для тех, кто любит хранить файлы у себя</p>
+    </div>
+  </footer>
+
+  <script src="site.js"></script>
+</body>
+</html>
