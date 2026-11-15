@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://oleggazeta67-alt.github.io/vgrab/sitemap.xml
+Sitemap: https://vgrab.netlify.app/sitemap.xml
